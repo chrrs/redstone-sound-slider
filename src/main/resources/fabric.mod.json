@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "redstone_sound_slider",
+    "version": "${version}",
+    "name": "Redstone Sound Slider",
+    "description": "Adjust your redstone/piston/dispenser volume. That's it.",
+    "authors": [
+        "chrrrs"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/redstone-sound-slider",
+        "sources": "https://github.com/chrrs/redstone-sound-slider",
+        "issues": "https://github.com/chrrs/redstone-sound-slider/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/redstone_sound_slider/icon.png",
+    "mixins": [
+        "redstone_sound_slider.mixins.json"
+    ],
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "me.chrr.rss.RedstoneSoundSlider"
+        ],
+        "modmenu": [
+            "me.chrr.rss.config.ModMenuCompat"
+        ]
+    },
+    "depends": {
+        "minecraft": "${minecraft}",
+        "fabricloader": ">=0.15"
+    }
+}
