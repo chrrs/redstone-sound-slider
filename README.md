@@ -4,8 +4,8 @@
 
 ![Version](https://img.shields.io/github/v/release/chrrs/redstone-sound-slider?include_prereleases&style=flat-square)
 ![Build status](https://img.shields.io/github/actions/workflow/status/chrrs/redstone-sound-slider/build.yml?style=flat-square)
-[![Modrinth](https://img.shields.io/modrinth/dt/yXAvIk0x?style=flat-square&logo=modrinth)](https://modrinth.com/mod/redstone-sound-slider)
-[![CurseForge](https://img.shields.io/curseforge/dt/1051344?style=flat-square&logo=curseforge)](https://curseforge.com/minecraft/mc-mods/redstone-sound-slider)
+[![Modrinth](https://img.shields.io/modrinth/dt/tcswzSAY?style=flat-square&logo=modrinth)](https://modrinth.com/mod/redstone-sound-slider)
+[![CurseForge](https://img.shields.io/curseforge/dt/1224824?style=flat-square&logo=curseforge)](https://curseforge.com/minecraft/mc-mods/redstone-sound-slider)
 
 Read more about it on [Modrinth](https://modrinth.com/mod/redstone-sound-slider)
 or [CurseForge](https://curseforge.com/minecraft/mc-mods/redstone-sound-slider).
