@@ -16,6 +16,7 @@ import java.util.Arrays;
 @Mixin(SoundCategory.class)
 public abstract class SoundCategoryMixin {
     @Invoker("<init>")
+    @SuppressWarnings("SameParameterValue")
     private static SoundCategory createSoundCategory(String internalName, int internalId, String name) {
         throw new AssertionError();
     }
