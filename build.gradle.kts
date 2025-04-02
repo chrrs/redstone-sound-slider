@@ -70,6 +70,17 @@ tasks {
         group = "versioned"
         description = "Must run through `chiseledBuild`"
     }
+
+    register<Copy>("buildAndCollect") {
+        group = "versioned"
+        description = "Must run through `chiseledBuild`"
+
+        from(remapJar.get().archiveFile)
+        into(rootProject.layout.buildDirectory.file("libs"))
+        dependsOn(build)
+    }
+
+    publishMods.get().dependsOn("buildAndCollect")
 }
 
 publishMods {
