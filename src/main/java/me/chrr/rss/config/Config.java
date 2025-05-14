@@ -19,6 +19,7 @@ public class Config {
         put(SoundSource.PISTON, true);
         put(SoundSource.DISPENSER, true);
         put(SoundSource.DOORS, false);
+        put(SoundSource.TRAPDOORS, false);
         put(SoundSource.FENCE_GATES, false);
         put(SoundSource.PRESSURE_PLATES, true);
         put(SoundSource.BUTTONS, false);

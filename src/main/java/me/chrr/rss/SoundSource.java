@@ -52,6 +52,25 @@ public enum SoundSource {
             SoundEvents.BLOCK_NETHER_WOOD_DOOR_OPEN,
             SoundEvents.BLOCK_NETHER_WOOD_DOOR_CLOSE),
 
+    TRAPDOORS(Text.translatable("text.sound_source.trapdoors"),
+            SoundCategory.BLOCKS,
+
+            //? if >=1.20.3 {
+            SoundEvents.BLOCK_COPPER_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_COPPER_TRAPDOOR_CLOSE,
+            //?}
+
+            SoundEvents.BLOCK_IRON_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_IRON_TRAPDOOR_CLOSE,
+            SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE,
+            SoundEvents.BLOCK_BAMBOO_WOOD_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_BAMBOO_WOOD_TRAPDOOR_CLOSE,
+            SoundEvents.BLOCK_CHERRY_WOOD_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_CHERRY_WOOD_TRAPDOOR_CLOSE,
+            SoundEvents.BLOCK_NETHER_WOOD_TRAPDOOR_OPEN,
+            SoundEvents.BLOCK_NETHER_WOOD_TRAPDOOR_CLOSE),
+
     FENCE_GATES(Text.translatable("text.sound_source.fence_gates"),
             SoundCategory.BLOCKS,
             SoundEvents.BLOCK_FENCE_GATE_OPEN,

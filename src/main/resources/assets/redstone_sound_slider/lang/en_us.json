@@ -2,6 +2,7 @@
     "soundCategory.redstone": "Redstone",
     "text.sound_source.include_hint": "Sound sources to include under the 'Redstone' slider",
     "text.sound_source.doors": "Doors",
+    "text.sound_source.trapdoors": "Trapdoors",
     "text.sound_source.fence_gates": "Fence Gates",
     "text.sound_source.pressure_plates": "Pressure Plates",
     "text.sound_source.buttons": "Buttons"
