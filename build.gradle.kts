@@ -8,10 +8,11 @@ plugins {
 fun Project.hasProp(namespace: String, key: String) = hasProperty("$namespace.$key")
 fun Project.prop(namespace: String, key: String) = property("$namespace.$key") as String
 
-val minecraft = stonecutter.current.version
+val current = stonecutter.current.version
+val minecraft = prop("minecraft", "version")
 
 group = prop("mod", "group")
-version = "${prop("mod", "version")}+mc$minecraft-fabric"
+version = "${prop("mod", "version")}+mc$current-fabric"
 base.archivesName.set(prop("mod", "name"))
 
 repositories {
@@ -26,7 +27,7 @@ dependencies {
 
     fun fabricApiModule(name: String) =
         modImplementation(fabricApi.module(name, prop("fabric", "apiVersion")))
-    fabricApiModule("fabric-resource-loader-v0")
+//    fabricApiModule("fabric-resource-loader-v0")
 
     modCompileOnly("com.terraformersmc:modmenu:${prop("modmenu", "version")}")
     modCompileOnly("me.shedaniel.cloth:cloth-config-fabric:${prop("clothconfig", "version")}")
@@ -41,7 +42,7 @@ loom {
 }
 
 java {
-    val java = if (stonecutter.eval(minecraft, ">=1.20.5"))
+    val java = if (stonecutter.eval(current, ">=1.20.5"))
         JavaVersion.VERSION_21 else JavaVersion.VERSION_17
     targetCompatibility = java
     sourceCompatibility = java
