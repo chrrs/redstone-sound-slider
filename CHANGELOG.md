@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Update to 1.21.6.
+
 ## 1.0.2
 
 - Add trapdoors as a mute-able sound source.
