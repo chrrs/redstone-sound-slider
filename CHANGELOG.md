@@ -1,3 +1,9 @@
+## 1.0.6
+
+- Update to 1.21.9.
+  - Add chests as a mute-able sound source (because of copper golems).
+  - Add a piston sound preview when changing the volume.
+
 ## 1.0.5
 
 - Update to 1.21.8.
