@@ -11,6 +11,9 @@ public class Config {
     public int version = 1;
 
     public HashMap<SoundSource, Boolean> sources = new HashMap<>() {{
+        //? if >=1.21.9
+        put(SoundSource.CHESTS, false);
+
         //? if >=1.20.3 {
         put(SoundSource.CRAFTER, true);
         put(SoundSource.COPPER_BULB, true);

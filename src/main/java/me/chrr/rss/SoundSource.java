@@ -10,6 +10,13 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashMap;
 
 public enum SoundSource {
+    //? if >=1.21.9 {
+    CHESTS(Text.translatable("text.sound_source.chests"),
+            SoundCategory.BLOCKS,
+            SoundEvents.BLOCK_CHEST_OPEN,
+            SoundEvents.BLOCK_CHEST_CLOSE),
+    //?}
+
     //? if >=1.20.3 {
     CRAFTER(Text.translatable("block.minecraft.crafter"),
             SoundCategory.BLOCKS,

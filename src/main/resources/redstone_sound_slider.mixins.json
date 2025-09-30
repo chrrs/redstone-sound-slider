@@ -6,7 +6,8 @@
     "client": [
         "ClientWorldMixin",
         "MovingMinecartSoundInstanceMixin",
-        "SoundCategoryMixin"
+        "SoundCategoryMixin",
+        "SoundPreviewerMixin"
     ],
     "injectors": {
         "defaultRequire": 1

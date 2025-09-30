@@ -5,5 +5,6 @@
     "text.sound_source.trapdoors": "Trapdoors",
     "text.sound_source.fence_gates": "Fence Gates",
     "text.sound_source.pressure_plates": "Pressure Plates",
-    "text.sound_source.buttons": "Buttons"
+    "text.sound_source.buttons": "Buttons",
+    "text.sound_source.chests": "Chests"
 }
